@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "sinatra"
-gem "sinatra-activerecord"
-gem "sqlite3"
-gem "rake"
+gem 'dotenv'
+gem 'rake'
+gem 'sinatra'
+gem 'sinatra-activerecord'
+gem 'sqlite3'

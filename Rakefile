@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require "sinatra/activerecord/rake"
+require 'sinatra/activerecord/rake'
 
- namespace :db do
-    task :load_config do
-        require "./app"
-    end
+namespace :db do
+    task load_config: :environment do
+      require './app'
+  end
 end
